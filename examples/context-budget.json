@@ -1,0 +1,14 @@
+{
+  "context_window_tokens": 400000,
+  "stable_instructions_tokens": 5000,
+  "tool_schema_tokens": 2000,
+  "conversation_history_tokens": 24000,
+  "retrieved_context_tokens": 12000,
+  "current_turn_tokens": 1000,
+  "output_reserve_tokens": 4000,
+  "reasoning_reserve_tokens": 8000,
+  "safety_margin_tokens": 12000,
+  "planned_total_tokens": 68000,
+  "remaining_tokens": 332000,
+  "note": "Illustrative numbers only. Measure actual requests and reserve for model-specific overhead."
+}
