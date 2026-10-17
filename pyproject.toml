@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-chatbot-learning-lab"
+version = "0.1.0"
+description = "A forkable learning lab for agentic chatbots, model context, and caching"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["openai>=2.0.0,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
