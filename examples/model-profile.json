@@ -1,0 +1,16 @@
+{
+  "profile_date": "2026-10-17",
+  "provider": "OpenAI API",
+  "model_id": "gpt-5.4-mini",
+  "context_window_tokens": 400000,
+  "maximum_output_tokens": 128000,
+  "supports_responses_api": true,
+  "supports_function_calling": true,
+  "supports_prompt_caching": true,
+  "notes": [
+    "This is a dated teaching snapshot, not a promise of future model availability.",
+    "The context window includes input and generated tokens; reasoning tokens also consume context for reasoning-enabled models.",
+    "Recheck the live model page and your account's model access before deployment."
+  ],
+  "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+}
